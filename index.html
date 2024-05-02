@@ -6,6 +6,7 @@
     <title>Portifólio</title>
 
     <script src="components/projetos.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
@@ -13,19 +14,23 @@
 
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Projetos</li>
+                <li><a href="/">Home</a></li>
+                <li><a href="#projetos">projetos</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section class="sobre">
             <div>Sobre mim</div>
             <div>Conhecimentos</div>
         </section>
 
-        <div id="project"></div>
+        <section id="projetos">
+            <div id="containerDeCards"></div>
+        </section>
+
+
     </main>
 
     <footer>
