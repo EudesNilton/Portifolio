@@ -1,0 +1,11 @@
+/*dark mode*/
+
+.dark-mode{
+    background-color: var(--primary-color);
+
+}
+
+.dark-mode .logo{
+    color: var(--second-color);
+    border-color: var(--second-color);
+}
