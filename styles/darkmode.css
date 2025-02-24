@@ -1,7 +1,7 @@
 /*dark mode*/
 
 .dark-mode{
-    background-color: var(--primary-color);
+    background-color: var(--darkmode-color);
 
 }
 
