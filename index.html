@@ -4,40 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eudes Nilton</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/darkmode.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="logo">
             <h1>EN</h1>
         </div>
 
-        <nav>
+        <nav class="menu">
             <a href="">Curriculo</a>
             <a href="">Github</a>
+            
+            <div>
+                <button class="button-dark" id="dark">
+                    <img style="width: 25px;" id="icon" src="img/moon.png" alt="mode">
+                </button>
+            </div>
+            
         </nav>
+
+        
     </header>
 
-    <section>
-        <h1>Sobre</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, voluptates sint pariatur suscipit reiciendis id ducimus. Facilis temporibus accusantium veritatis quisquam earum, quo ad iste reiciendis, laboriosam, molestiae rerum eligendi.
-        </p>
-    </section>
+    <section class="about">
+        <div class="about-me">
+            <h1>Sobre</h1>
+            <p>
+                Olá, mundo! Meu nome é <span>Eudes Nilton</span> e eu sou <span>Desenvolvedor Front-End</span>.
+                Estou buscando oportunidades para desenvolver minhas habilidades em programação e explorar o potencial interdisciplinar. Tenho dedicado meu tempo livre ao estudo de programação, participando de cursos online e projetos práticos para expandir meus conhecimentos em linguagens como JavaScript e TypeScript e também aprimorando meus conhecimentos no <span>Back-End</span> com C# e Java.
+            </p>
 
-    <section>
-        <h1>Projetos</h1>
-        <div>
-            <img src="" alt="">
             <div>
-                <button>code</button>
-                <button>view</button>
+            <h1>Tecnologias</h1>
+            
+            <div id="tech">
+
             </div>
+            </div>
+        </div>
+        <div>
+            <img style="width: 500px; border-radius: 60% 40% 64% 36%  / 44% 30% 70% 56% ;" src="img/helloworld.gif" alt="dev">
         </div>
     </section>
 
-    <footer>
-        <a href="#"><img src="" alt="LinkedIn"></a>
-        <a href="#"><img src="" alt="Github"></a>
+    <section class="projects">
+        <h1>Projetos</h1>
+        <div id="projectCompleted" class="project">
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3>Contato</h3>
+        <div>
+            <a href="https://www.linkedin.com/in/eudesnilton" target="_blank"><img src="img/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/EudesNilton" target="_blank"><img src="img/github.png" alt="Github"></a>
+        </div>
+        
     </footer>
 </body>
 </html>
