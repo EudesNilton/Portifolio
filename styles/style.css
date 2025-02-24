@@ -127,10 +127,10 @@ span{
 }
 
 .project{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
 }
 
 .buttonContainer{
@@ -166,8 +166,61 @@ span{
     width: 50px;
 }
 
-
-
-
 /*media query*/
+
+
+@media (max-width:768px){
+
+    .about-me {
+        text-align: justify;
+    }
+    .about .helloworld{
+        display: none;
+    }
+
+    .project{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Cria 3 colunas de tamanhos iguais */
+        gap: 10px;
+    }
+}
+
+@media(max-width: 430px) {
+    .header{
+        flex-direction: column;
+	}
+    .about{
+        gap: 0px;
+        margin: 25px;
+        justify-content: center;
+    }
+    
+    .about-me{
+        text-align: justify;
+    }
+
+    .about .helloworld{
+        display: none;
+    }
+
+    #tech{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
 
