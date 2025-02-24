@@ -91,5 +91,7 @@ function criarProjeto(imagemSrc, altText, codeLink, viewLink) {
 
 criarProjeto('img/error.gif', 'Erro 1', 'https://github.com/projeto1', 'https://view.projeto1');
 criarProjeto('img/error.gif', 'Erro 2', 'https://github.com/projeto2', 'https://view.projeto2');
+criarProjeto('img/error.gif', 'Erro 1', 'https://github.com/projeto1', 'https://view.projeto1');
+criarProjeto('img/error.gif', 'Erro 2', 'https://github.com/projeto2', 'https://view.projeto2');
 
         
