@@ -89,10 +89,10 @@ function criarProjeto(imagemSrc, altText, codeLink, viewLink) {
 }
 
 
-criarProjeto('img/error.gif', 'Gerador QRCode', 'https://github.com/EudesNilton/qrcode', 'https://eudesnilton.github.io/qrcode/');
-criarProjeto('img/error.gif', 'Todo List', 'https://github.com/EudesNilton/todolist', 'https://eudesnilton.github.io/todolist/');
-criarProjeto('img/error.gif', 'Calculadora IMC', 'https://github.com/EudesNilton/calculadoraImc', 'https://eudesnilton.github.io/calculadoraImc/');
-criarProjeto('img/error.gif', 'Link Instagram', 'https://github.com/EudesNilton/linkInstagram', 'https://link-instagram-snowy.vercel.app/');
-criarProjeto('img/error.gif', 'The Last of Us', 'https://github.com/EudesNilton/The-Last-of-Us', 'https://eudesnilton.github.io/The-Last-of-Us/');
+criarProjeto('img/qrcode.png', 'Gerador QRCode', 'https://github.com/EudesNilton/qrcode', 'https://eudesnilton.github.io/qrcode/');
+criarProjeto('img/todolist.png', 'Todo List', 'https://github.com/EudesNilton/todolist', 'https://eudesnilton.github.io/todolist/');
+criarProjeto('img/imc.png', 'Calculadora IMC', 'https://github.com/EudesNilton/calculadoraImc', 'https://eudesnilton.github.io/calculadoraImc/');
+criarProjeto('img/linkinstagram.png', 'Link Instagram', 'https://github.com/EudesNilton/linkInstagram', 'https://link-instagram-snowy.vercel.app/');
+criarProjeto('img/thelasofus.png', 'The Last of Us', 'https://github.com/EudesNilton/The-Last-of-Us', 'https://eudesnilton.github.io/The-Last-of-Us/');
 
         
